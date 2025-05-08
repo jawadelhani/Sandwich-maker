@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>sandwich maker</title>
+    <link rel="stylesheet" href="fir.css">
+    <link rel="icon" href="image/sandwich.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <h2><i>make your sandwich</i></h2>
+  </header>
+  <div id="order-modal" class="modal">
+  <div class="modal-content">
+    <h2>Your Order is Done!</h2>
+    <p id="ready"><strong>Total Price:</strong> $<span id="total-price-modal">0.00</span></p>
+    <p >Your sandwich is ready. Enjoy your meal!</p>
+    <img src="image/ki.jpg" alt="Sandwich Ready" style="width: 35%; max-height: 400px;">
+    <br>
+    <button id="close-modal" class="close-button">Close</button>
+  </div>
+</div>
+  <div id="price-container">
+    Total Price: <span id="total-price">0</span>$
+  </div>
+    <h3>Choose Your Ingredients:</h3>
+    <div class="ingredient">
+      <div class="igr" data-gradient="linear-gradient(to right, #7ed957, #4caf50)" draggable="true"><img src="image/Lettuce.png" alt="Lettuce" class="button-icon" height="50" ><p>Lectuce</p></div>
+                    
+                
+        <div class="igr"  data-gradient="linear-gradient(to right, #ff6347, #ff4500)" draggable="true"><img src="image/Tomato.png" alt="Tomato" class="button-icon" height="50" ><p>Tomato</p></div>
+                       
+                    
+        <div class="igr" data-gradient="linear-gradient(to right, #9a70d6, #8a2be2)" draggable="true"><img src="image/Onion.png" alt="Onion" class="button-icon" height="50" ><p>Onion</p></div>
+                       
+                  
+        <div class="igr" data-gradient="linear-gradient(to right, #ffadc3, #ff7f99)" draggable="true"><img src="image/Ham.png" alt="Ham" class="button-icon" height="50" ><p>Meat</p></div>
+                        
+                    
+        <div class="igr" data-gradient="linear-gradient(to right, #f7e452, #f4c542)" draggable="true"><img src="image/Cheese.png" alt="Cheese" class="button-icon" height="50" ><p>Cheese</p></div>
+                        
+                   
+        <div class="igr" data-gradient="linear-gradient(to right, #9ce78e, #76c76b)"><img src="image/Cucumber.png" alt="Cucumber" class="button-icon" height="50" ><p>Cucumber</p></div>
+                          
+                    
+        <div class="igr" data-gradient="linear-gradient(to right, #ffdab9, #ff9f67)" draggable="true"><img src="image/Turkey.png" alt="Turkey" class="button-icon" height="50" ><p>Chiken</p></div>
+                        
+                   
+        <div class="igr" data-gradient="linear-gradient(to right, #228b22, #006400)" draggable="true"><img src="image/jalapeno.png" alt="jalapeno" class="button-icon" height="50" ><p>jalapeno</p></div>
+
+    </div>
+    <div class="container">
+      <div id="ingredient-lines"></div>
+      <div class="bread"></div>
+    </div> 
+    
+    <div >
+      <button id="reset-button" style="font-weight: bold;" >Reset</button>
+    </div>
+
+    <div>
+      <button id="finish-button" style="font-weight: bold;">Finish</button>
+    </div>
+
+    <script src="script.js"></script>
+          
+</body>
+
+
+</html>
